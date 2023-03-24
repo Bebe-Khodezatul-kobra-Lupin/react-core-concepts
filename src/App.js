@@ -17,15 +17,15 @@ function CounterNum() {
 
   const [count, setCount] = useState(55);
   //console.log(abc);
-  const incressCount = () => {
-    const newcount = count + 1;
-    setCount(newcount);
-  }
+  const incressCount = () => setCount(count + 1);
+  const decressCount = () => setCount(count - 1);
+
   return (
     <div>
       <h1>Count:{count}</h1>
       <button onClick={incressCount}  >Incress</button>
-
+      <br />
+      <button onClick={decressCount}  >Decrease</button>
     </div>
   )
 }
