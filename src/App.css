@@ -32,7 +32,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.User {
+  border: 2px solid black;
+  background-color: #61dafb;
+
+
 }
